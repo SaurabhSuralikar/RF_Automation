@@ -1,4 +1,4 @@
-*** Settings ***
+**** Settings ***
 Library    SeleniumLibrary
 Resource  ../Resources/UserKeywords.robot
 Resource   ../Resources/LoginKeywords.robot
@@ -18,7 +18,7 @@ Tc_001_Login Logout Functionality
 #    Maximize Browser Window
 #    Sleep  2 seconds
 #    Click element  xpath://a[text()='Login']
-    Open My Browser  ${URL}  Chrome
+    Open My Browser  ${URL}  Chrome  IE
     Click Loginin
     ${row}=  Read Number Of Rows  Sheet1
     : FOR   ${i}    IN RANGE    1   ${row}
