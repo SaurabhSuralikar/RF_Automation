@@ -1,5 +1,4 @@
 *** Settings ***
-library    SeleniumLibrary
 Library    SeleniumLibrary
 Library  SeleniumLibrary
 
@@ -15,7 +14,7 @@ ${URL}    http://letskodeit.com/
 
 tc_001_browser start and close
     Open Browser    ${URL}    ${Browser}
-    Maximize Browser  Window
+    Maximize Browser Window
     Close Browser
 
 
