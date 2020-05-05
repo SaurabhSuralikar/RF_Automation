@@ -6,7 +6,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${Browser}    Chrome
-${URL}    http://letskodeit.com/
+${URL}    https://learn.letskodeit.com/p/practice
 
 *** Test Cases ***
 
