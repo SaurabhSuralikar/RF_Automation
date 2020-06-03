@@ -8,8 +8,6 @@ Resource   ../Resources/LoginKeywords.robot
 
 *** Variables ***
 ${URL}     https://thetestingworld.com
-#${Browser}    Chrome
-#{URL}    https://learn.letskodeit.com/p/practice
 
 *** Test Cases ***
 
