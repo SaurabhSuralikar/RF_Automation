@@ -7,17 +7,17 @@ Resource   ../Resources/LoginKeywords.robot
 
 
 *** Variables ***
-${URL}     https://thetestingworld.com
-
+#${URL}     https://thetestingworld.com
+${URL}      https://www.testyou.in/Login.aspx
 *** Test Cases ***
-
+#TestCase
 Tc_001_Login Logout Functionality
 #    Open Browser    ${URL}  Chrome
 #    Maximize Browser Window
 #    Sleep  2 seconds
 #    Click element  xpath://a[text()='Login']
     Open My Browser  ${URL}  Chrome
-    Click Loginin
+    #Click Loginin
     ${row}=  Read Number Of Rows  Sheet1
     : FOR   ${i}    IN RANGE    1   ${row}
 
